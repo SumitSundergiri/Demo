@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap");
+*{
+margin: 0;
+padding: 0;
+}
+
+.sidebar{
+    background-color: coral;
+     width: 18vw;
+     font-family:'Fira Sans', sans-serif bold;
+     height: 100vh;
+    
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+list-style-type: none;
+font-size: 28px;
+padding:28px ;
+}
+
+.main{
+    background-color: cadetblue;
+     width: 80vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContain{
+    background-color: azure;
+    height: 50vh;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+}
+
+.infoPic img {
+    width: 12vw;
+}
